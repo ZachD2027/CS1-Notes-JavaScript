@@ -21,4 +21,27 @@ let worstNumber = 21;
 
 //You can "PASS IN" a variable into a function
 console.log(luckyNumber);
+console.log(worstNumber);
 
+// Can change the value stored in a variable 
+let mood = "happy";
+console.log(mood);
+mood = "sad";
+console.log(mood);
+
+// We can copy the value from one variable into another
+let isHappy = true;
+let isThrilled;
+isThrilled = isHappy;
+console.log(isThrilled); 
+
+// MATH OPERATIONS
+let score = 0;
+score = score + 5
+console.log(score);
+score = score - 10;
+console.log(score);
+score = score * (-3);
+console.log(score);
+score = score / 5;
+console.log(score);
