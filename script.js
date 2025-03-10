@@ -37,7 +37,7 @@ console.log(isThrilled);
 
 // MATH OPERATIONS
 let score = 0;
-score = score + 5
+score = score + 5;
 console.log(score);
 score = score - 10;
 console.log(score);
@@ -45,3 +45,35 @@ score = score * (-3);
 console.log(score);
 score = score / 5;
 console.log(score);
+
+// Can combine multiple operators in one statement
+// Order of evaluation follows PEMDAS!
+score = (score ** 2 - 23 + 4) * 2 / 4;
+console.log(score);
+
+// STRING CONCATENATE (merging) 
+// Concatenate two string LITERALS
+// String literals are contained in "Quotes"
+let greeting = "Hello " + "Friend";
+console.log(greeting);
+ 
+// Can combine variables with string literals
+let username = "zackexx26";
+console.log("Welcome, " + username + "!!!");
+
+//Concatenation will convert non-String data
+console.log( 4 + 5 ); // add numbers
+console.log( "4" + 5 ); // 45
+console.log( 4 + '5'); // same as above
+
+// SHORTCUT OPERATORS (Increment/Decrement)
+let counter = 0;
+counter = counter + 1; // LONG WAY
+counter++; // SHORT WAY (does the same thing)
+console.log(counter);
+counter--;
+console.log(counter);
+
+
+
+
